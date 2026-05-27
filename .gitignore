@@ -1,0 +1,23 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local dev
+node_modules/
+.env
+.env.local
+*.log
+
+# Source materials & debug files (not needed for production)
+images/Construction logo/
+images/_partners_check.png
+
+# Keep folder placeholders out of git
+**/_README.txt
