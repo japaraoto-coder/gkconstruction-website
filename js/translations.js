@@ -53,7 +53,7 @@ const translations = {
 
     "contact.label": "კონტაქტი",
     "contact.title": "ვაშენოთ ერთად",
-    "contact.sub": "მზად ვართ განვიხილოთ თქვენი შემდეგი პროექტი. დაგვიკავშირდით GK Construction-ს.",
+    "contact.sub": "მზად ვართ განვიხილოთ თქვენი შემდეგი პროექტი. დაგვიკავშირდით.",
     "contact.addr": "მისამართი",
     "contact.phone": "ტელეფონი",
     "contact.email": "ელფოსტა",
@@ -137,7 +137,7 @@ const translations = {
 
     "contact.label": "Contact",
     "contact.title": "Let's build together",
-    "contact.sub": "Ready to discuss your next development. Get in touch with GK Construction.",
+    "contact.sub": "Ready to discuss your next development. Get in touch.",
     "contact.addr": "Address",
     "contact.phone": "Phone",
     "contact.email": "Email",
@@ -221,7 +221,7 @@ const translations = {
 
     "contact.label": "Контакты",
     "contact.title": "Построим вместе",
-    "contact.sub": "Готовы обсудить ваш следующий проект. Свяжитесь с GK Construction.",
+    "contact.sub": "Готовы обсудить ваш следующий проект. Свяжитесь с нами.",
     "contact.addr": "Адрес",
     "contact.phone": "Телефон",
     "contact.email": "Эл. почта",
