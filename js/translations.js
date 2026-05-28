@@ -33,7 +33,7 @@ const translations = {
     "about.v4p": "7+ წამყვანი დეველოპერის სუბკონტრაქტორი.",
 
     "services.label": "რას ვაკეთებთ",
-    "services.title": "სრული ციკლი — პროექტიდან ჩაბარებამდე",
+    "services.title": "სრული ციკლი → პროექტიდან ჩაბარებამდე",
     "services.s1": "პროექტირება",
     "services.s2": "მშენებლობა",
     "services.s3": "ინფრასტრუქტურა",
@@ -116,7 +116,7 @@ const translations = {
     "about.v4p": "Subcontractor to 7+ leading developers.",
 
     "services.label": "What we do",
-    "services.title": "Full cycle — from design to handover",
+    "services.title": "Full cycle → from design to handover",
     "services.s1": "Design & Projecting",
     "services.s2": "Construction",
     "services.s3": "Infrastructure",
@@ -199,7 +199,7 @@ const translations = {
     "about.v4p": "Субподрядчик для 7+ ведущих девелоперов.",
 
     "services.label": "Что мы делаем",
-    "services.title": "Полный цикл — от проекта до сдачи",
+    "services.title": "Полный цикл → от проекта до сдачи",
     "services.s1": "Проектирование",
     "services.s2": "Строительство",
     "services.s3": "Инфраструктура",
