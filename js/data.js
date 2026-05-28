@@ -52,7 +52,7 @@ const services = [
   {
     id: "structural", num: "02", icon: "structural",
     ka: {
-      title: "მშენებლობა",
+      title: "მონოლითი",
       tagline: "მონოლითური კარკასი, რომელიც შენობას ატარებს.",
       shortDesc: "რკინა-ბეტონის სტრუქტურული და არქიტექტურული ელემენტების მშენებლობა მკაცრად პროექტის მიხედვით.",
       overview: "ჩვენი ძირითადი მიმართულება: <strong>მონოლითური კარკასის ჩამოსხმა, რომელიც შენობას ატარებს</strong> — ყალიბი, არმატურა და ბეტონი მკაცრად პროექტის მიხედვით.",
@@ -64,7 +64,7 @@ const services = [
       ]
     },
     en: {
-      title: "Construction",
+      title: "Monolith",
       tagline: "The monolithic frame that carries the building.",
       shortDesc: "Construction of structural and architectural elements in reinforced concrete, strictly per project.",
       overview: "Our core discipline: <strong>pouring the monolithic frame that carries the building</strong> — formwork, rebar and concrete executed strictly to project.",
@@ -76,7 +76,7 @@ const services = [
       ]
     },
     ru: {
-      title: "Строительство",
+      title: "Монолит",
       tagline: "Монолитный каркас, несущий здание.",
       shortDesc: "Строительство конструктивных и архитектурных элементов из железобетона, строго по проекту.",
       overview: "Наше основное направление: <strong>заливка монолитного каркаса, несущего здание</strong> — опалубка, арматура и бетон строго по проекту.",
@@ -97,39 +97,39 @@ const services = [
   {
     id: "infrastructure", num: "03", icon: "infrastructure",
     ka: {
-      title: "ინფრასტრუქტურა",
-      tagline: "ობიექტის ინჟინერია, რომელიც მთავარ კონსტრუქციას მხარს უჭერს.",
-      shortDesc: "ობიექტის ინფრასტრუქტურული და საინჟინრო სამუშაოები — მთავარი კონსტრუქციის მხარდასაჭერად.",
-      overview: "მთავარი კონსტრუქციის გარშემო — <strong>ობიექტის საინჟინრო და ინფრასტრუქტურული სამუშაოები</strong>, რომლებიც უზრუნველყოფს მთლიანი ობიექტის გამართულ ფუნქციონირებას.",
+      title: "არქიტექტურა",
+      tagline: "შიდა ფინიშინგ-სამუშაოები, რომლებიც ინტერიერს ქმნის.",
+      shortDesc: "ლესვა, ბლოკის წყობა, იატაკის მოჭიმვა და სხვა შიდა სამუშაოები.",
+      overview: "მონოლითის შემდეგ — <strong>შიდა ფინიშინგ-სამუშაოები</strong>, რომლებიც ფართს იდეალურ მდგომარეობაში მოიყვანს მფლობელისთვის ჩასაბარებლად.",
       capabilities: [
-        { t: "ობიექტის ინჟინერია", d: "საინჟინრო სამუშაოები ობიექტზე." },
-        { t: "დამხმარე კონსტრუქცია", d: "მთავარი კონსტრუქციის მხარდამჭერი სამუშაოები." },
-        { t: "ტერიტორიის მოწყობა", d: "ობიექტის ტერიტორიის საინჟინრო მოწყობა." },
-        { t: "კოორდინაცია", d: "კოორდინაცია მთავარ კონსტრუქციასთან." }
+        { t: "ლესვა", d: "კედლების ლესვა შპაკლიორთა და მზადება მოპირკეთებისთვის." },
+        { t: "ბლოკის წყობა", d: "შიდა და გარე ბლოკის წყობა მკაცრად პროექტის მიხედვით." },
+        { t: "იატაკის მოჭიმვა", d: "იატაკის სტიკურა და ფინიშინგ მოპირკეთებისთვის." },
+        { t: "სხვა შიდა სამუშაოები", d: "ფინიშინგის სრული პაკეტი — გადასწორება, ჰიდრო, შესასწორი სამუშაოები." }
       ]
     },
     en: {
-      title: "Infrastructure",
-      tagline: "Site engineering that supports the structure.",
-      shortDesc: "Execution of infrastructural and site-engineering projects supporting the main structure.",
-      overview: "Around the main structure — <strong>site-engineering and infrastructural works</strong> that keep the whole development running.",
+      title: "Architecture",
+      tagline: "Interior finishing works that shape the space.",
+      shortDesc: "Plastering, blockwork, floor screed and other interior finishing works.",
+      overview: "After the monolith — <strong>interior finishing works</strong> that bring the space to handover-ready condition for the owner.",
       capabilities: [
-        { t: "Site engineering", d: "Engineering works on site." },
-        { t: "Supporting structures", d: "Works that support the main structure." },
-        { t: "Site arrangement", d: "Engineering arrangement of the site." },
-        { t: "Coordination", d: "Coordination with the main structure." }
+        { t: "Plastering", d: "Wall plastering and prep for final finishes." },
+        { t: "Blockwork", d: "Interior and exterior block laying strictly per project." },
+        { t: "Floor screed", d: "Floor screeding and prep for final flooring." },
+        { t: "Other interior works", d: "Full finishing package — leveling, waterproofing, corrective works." }
       ]
     },
     ru: {
-      title: "Инфраструктура",
-      tagline: "Инженерия площадки, поддерживающая конструкцию.",
-      shortDesc: "Выполнение инфраструктурных и инженерных работ на площадке в поддержку основной конструкции.",
-      overview: "Вокруг основной конструкции — <strong>инженерные и инфраструктурные работы</strong>, обеспечивающие работу всего объекта.",
+      title: "Архитектура",
+      tagline: "Внутренние отделочные работы, формирующие пространство.",
+      shortDesc: "Штукатурка, кладка блоков, стяжка пола и другие внутренние работы.",
+      overview: "После монолита — <strong>внутренние отделочные работы</strong>, доводящие помещение до готовности к сдаче владельцу.",
       capabilities: [
-        { t: "Инженерия площадки", d: "Инженерные работы на объекте." },
-        { t: "Поддержка конструкции", d: "Работы в поддержку основной конструкции." },
-        { t: "Обустройство участка", d: "Инженерное обустройство территории." },
-        { t: "Координация", d: "Координация с основной конструкцией." }
+        { t: "Штукатурка", d: "Штукатурка стен и подготовка под чистовую отделку." },
+        { t: "Кладка блоков", d: "Внутренняя и наружная кладка строго по проекту." },
+        { t: "Стяжка пола", d: "Стяжка и подготовка под финишное покрытие." },
+        { t: "Прочие внутренние работы", d: "Полный пакет отделки — выравнивание, гидроизоляция, корректировочные работы." }
       ]
     },
     stats: [
@@ -142,7 +142,7 @@ const services = [
   {
     id: "estimates", num: "04", icon: "estimates",
     ka: {
-      title: "ხარჯთაღრიცხვა და ტენდერი",
+      title: "BOQ და ხარჯთაღრიცხვა",
       tagline: "ყველა ეტაპი დათვლილი და ტენდერისთვის მზად.",
       shortDesc: "ხარჯთაღრიცხვა შრომისა და მანქანა-მექანიზმების მიხედვით, საბაზრო ფასებში, და ტენდერის სრული მომზადება.",
       overview: "ჩვენ ვხურავთ ციკლს ციფრებით — <strong>ხარჯთაღრიცხვა და ტენდერის მომზადება</strong> ისე, რომ ყველა ეტაპი იყოს დათვლილი და ბაზრის შესაბამისი.",
@@ -154,7 +154,7 @@ const services = [
       ]
     },
     en: {
-      title: "Estimates & Tenders",
+      title: "BOQ & Estimates",
       tagline: "Every stage priced and tender-ready.",
       shortDesc: "Cost estimates by machine-mechanism and labour, priced to market, and full tender preparation.",
       overview: "We close the loop with the numbers — <strong>cost estimates and tender preparation</strong> so every stage is priced and market-aligned.",
@@ -166,7 +166,7 @@ const services = [
       ]
     },
     ru: {
-      title: "Сметы и тендеры",
+      title: "BOQ и сметы",
       tagline: "Каждый этап посчитан и готов к тендеру.",
       shortDesc: "Сметы по машино-механизмам и труду, по рыночным ценам, и полная подготовка тендера.",
       overview: "Замыкаем цикл цифрами — <strong>сметы и подготовка тендеров</strong>, чтобы каждый этап был посчитан и соответствовал рынку.",
@@ -227,51 +227,6 @@ const services = [
       { ka: "ფიზიკური + ციფრული", en: "Physical + digital", ru: "Физ. + цифра", n: "BOTH" },
       { ka: "აუდიტისთვის მზა", en: "Audit-ready", ru: "Готово к аудиту", n: "YES" },
       { ka: "ფოტო ანგარიში", en: "Photo reports", ru: "Фотоотчёты", n: "STAGE" }
-    ]
-  },
-  {
-    id: "geodesy", num: "06", icon: "geodesy",
-    ka: {
-      title: "გეოდეზია",
-      tagline: "ზუსტი ნიშნულები, ვერიფიცირებული ობიექტზე.",
-      shortDesc: "პროექტის ნიშნულების დადგენა და ვერიფიკაცია გეოდეზიური საზომი უწყისითა და ტოპოგრაფიით.",
-      overview: "სიზუსტე ფუნდამენტიდან იწყება — <strong>პროექტის ნიშნულების დადგენა და ტოპოგრაფიული კონტროლი</strong> გეოდეზიური საზომი უწყისით.",
-      capabilities: [
-        { t: "ნიშნულების დადგენა", d: "პროექტის ნიშნულების ზუსტი დადგენა." },
-        { t: "გეოდეზიური უწყისი", d: "ვერიფიკაცია საზომი უწყისით." },
-        { t: "ტოპოგრაფია", d: "ტოპოგრაფიული აზომვა და კონტროლი." },
-        { t: "კონტროლი მშენებლობაში", d: "გეომეტრიის კონტროლი მშენებლობისას." }
-      ]
-    },
-    en: {
-      title: "Geodesy",
-      tagline: "Precise levels, verified on site.",
-      shortDesc: "Setting project levels and verification by geodetic measured sheet and topography.",
-      overview: "Precision starts at the foundation — <strong>setting project levels and topographic control</strong> verified by geodetic measured sheet.",
-      capabilities: [
-        { t: "Level-setting", d: "Precise setting of project levels." },
-        { t: "Geodetic sheet", d: "Verification by measured sheet." },
-        { t: "Topography", d: "Topographic survey and control." },
-        { t: "Build control", d: "Geometry control during construction." }
-      ]
-    },
-    ru: {
-      title: "Геодезия",
-      tagline: "Точные отметки, проверенные на объекте.",
-      shortDesc: "Установка проектных отметок и проверка по геодезической исполнительной ведомости и топографии.",
-      overview: "Точность начинается с фундамента — <strong>установка проектных отметок и топографический контроль</strong>, проверенные геодезической ведомостью.",
-      capabilities: [
-        { t: "Установка отметок", d: "Точная установка проектных отметок." },
-        { t: "Геодезическая ведомость", d: "Проверка по исполнительной ведомости." },
-        { t: "Топография", d: "Топографическая съёмка и контроль." },
-        { t: "Контроль стройки", d: "Контроль геометрии при строительстве." }
-      ]
-    },
-    stats: [
-      { ka: "ნიშნულის სიზუსტე", en: "Level accuracy", ru: "Точность отметок", n: "±mm" },
-      { ka: "ტოპო კონტროლი", en: "Topo control", ru: "Топоконтроль", n: "FULL" },
-      { ka: "ვერიფიცირებული", en: "Verified", ru: "Проверено", n: "100%" },
-      { ka: "უწყისი", en: "Measured sheets", ru: "Ведомости", n: "ALL" }
     ]
   }
 ];
@@ -356,11 +311,6 @@ const experience = {
     { year: "—", ka: { t: "სრული არქივი", l: "ყველა პროექტი", d: "ფორმა #2/#3, სერტიფიკატები, აქტები — ფიზიკური და ციფრული." },
       en: { t: "Complete archive", l: "All projects", d: "Form #2/#3, certificates, acts — physical and digital." },
       ru: { t: "Полный архив", l: "Все проекты", d: "Форма №2/№3, сертификаты, акты — физ. и цифра." } }
-  ],
-  geodesy: [
-    { year: "—", ka: { t: "გეოდეზიური კონტროლი", l: "ყველა ობიექტი", d: "ნიშნულების დადგენა და ტოპოგრაფიული კონტროლი." },
-      en: { t: "Geodetic control", l: "All sites", d: "Level-setting and topographic control." },
-      ru: { t: "Геодезический контроль", l: "Все объекты", d: "Установка отметок и топоконтроль." } }
   ]
 };
 
