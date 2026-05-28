@@ -11,7 +11,7 @@ const translations = {
     "hero.title1": "ვაშენებთ",
     "hero.title2": "იმას, რაც",
     "hero.title3": "დგას.",
-    "hero.sub": "რკინა-ბეტონისა და მონოლითური კონსტრუქციები საქართველოს წამყვანი დეველოპერებისთვის.",
+    "hero.sub": "რკინა-ბეტონის მონოლითური სამუშაოები საქართველოს წამყვანი დეველოპერებისთვის.",
     "hero.cta1": "ნახე მომსახურება →",
     "hero.cta2": "დაგვიკავშირდი",
     "hero.scroll": "გადაიწიე ქვემოთ",
@@ -94,7 +94,7 @@ const translations = {
     "hero.title1": "We build",
     "hero.title2": "what",
     "hero.title3": "stands.",
-    "hero.sub": "Reinforced-concrete & monolithic structures for Georgia's leading developers.",
+    "hero.sub": "Reinforced concrete monolithic works for Georgia's leading developers.",
     "hero.cta1": "See services →",
     "hero.cta2": "Get in touch",
     "hero.scroll": "Scroll down",
@@ -177,7 +177,7 @@ const translations = {
     "hero.title1": "Строим",
     "hero.title2": "то, что",
     "hero.title3": "стоит.",
-    "hero.sub": "Железобетонные и монолитные конструкции для ведущих девелоперов Грузии.",
+    "hero.sub": "Монолитные железобетонные работы для ведущих девелоперов Грузии.",
     "hero.cta1": "Услуги →",
     "hero.cta2": "Связаться",
     "hero.scroll": "Вниз",
@@ -250,3 +250,4 @@ const translations = {
     "showcase.line2": "Построим вместе."
   }
 };
+                                       
